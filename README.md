@@ -9,7 +9,13 @@ The original paper can be found at:
 
 PubMed RCT (PubMed 200k RCT)  
 
-**The dataset consists of approximately 200,000 abstracts of randomized controlled trials, totaling 2.3 million sentences**. Each sentence of each abstract is labeled with their role in the abstract using one of the following classes: background, objective, method, result, or conclusion.
+**The dataset consists of approximately 200,000 abstracts of randomized controlled trials, totaling 2.3 million sentences**. Each sentence of each abstract is labeled with their role in the abstract using one of the following classes: background, objective, method, result, or conclusion.  
+
+You can download the dataset from the following link:
+`https://github.com/Franck-Dernoncourt/pubmed-rct`
+
+Or you can simply clone it in the project using:  
+`git clone https://github.com/Franck-Dernoncourt/pubmed-rct.git`  
 
 ## Model 
 
