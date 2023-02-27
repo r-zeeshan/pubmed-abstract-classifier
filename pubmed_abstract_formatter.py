@@ -10,7 +10,7 @@ from tensorflow.keras.utils import plot_model
 from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint, ReduceLROnPlateau
 
 
-data_dir = "/content/pubmed-rct/PubMed_200k_RCT/"
+data_dir = "pubmed-rct-master/PubMed_200k_RCT_numbers_replaced_with_at_sign/"
 
 train_lines = get_lines(data_dir + "train.txt")
 train_lines[:3]
